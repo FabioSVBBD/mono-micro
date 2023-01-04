@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "install:ng": "cd angular-app && yarn",
+    "install:preact": "cd preact-app && yarn",
+    "install:react": "cd react-app && yarn",
+    "install:solid": "cd solid-app && yarn",
+    "install:svelte": "cd svelte-app && yarn",
+    "install:vue": "cd vue-app && yarn",
+    "install:host": "cd host && yarn",
+    "install:all": "sh scripts/install.sh",
+    "run:ng": "cd angular-app && yarn start",
+    "run:preact": "cd preact-app && yarn start",
+    "run:react": "cd react-app && yarn start",
+    "run:solid": "cd solid-app && yarn start",
+    "run:svelte": "cd svelte-app && yarn start",
+    "run:vue": "cd vue-app && yarn start",
+    "run:host": "cd host && yarn start",
+    "run:all": "sh scripts/run.sh"
+  }
+}
