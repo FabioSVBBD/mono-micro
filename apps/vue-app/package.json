@@ -2,9 +2,10 @@
   "name": "app-4",
   "version": "1.0.0",
   "scripts": {
+    "install": "yarn",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "build:start": "npx serve -s dist -l 8084",
+    "serve": "npx serve -s dist -l 8084",
     "start": "webpack-dev-server --open --mode development --live-reload"
   },
   "license": "MIT",

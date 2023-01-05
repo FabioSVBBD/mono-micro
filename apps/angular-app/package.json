@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "build:start": "ng serve --port 8086",
+    "serve": "ng serve --port 8086",
+    "install": "yarn",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

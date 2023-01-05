@@ -1,3 +1,4 @@
+yarn run v1.22.19
 warning ..\..\package.json: No license field
 $ ng build
 - Generating browser application bundles (phase: setup)...
@@ -24,4 +25,5 @@ Lazy Chunk Files              | Names         |  Raw Size | Estimated Transfer S
 605.b9e00bbc87af80d9.js       | -             |  46.99 kB |                14.58 kB
 85.857a89930de0fc62.js        | bootstrap     |  13.91 kB |                 4.15 kB
 
-Build at: 2023-01-05T09:51:16.201Z - Hash: 6f484a0d975f52a4 - Time: 15345ms
+Build at: 2023-01-05T10:08:56.319Z - Hash: 6f484a0d975f52a4 - Time: 8772ms
+Done in 13.53s.

@@ -2,9 +2,10 @@
   "name": "host",
   "version": "1.0.0",
   "scripts": {
+    "install": "yarn",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "build:start": "npx serve -s dist -l 8080",
+    "serve": "npx serve -s dist -l 8080",
     "start": "webpack serve --open --mode development --live-reload --hot"
   },
   "license": "MIT",
