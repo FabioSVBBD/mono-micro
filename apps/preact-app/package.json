@@ -2,7 +2,6 @@
   "name": "app-2",
   "version": "1.0.0",
   "scripts": {
-    "install": "yarn",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "serve": "npx serve -s dist -l 8082",

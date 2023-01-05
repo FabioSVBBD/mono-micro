@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "serve": "ng serve --port 8086",
-    "install": "yarn",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

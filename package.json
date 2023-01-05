@@ -1,4 +1,7 @@
 {
+  "name": "mono-micro",
+  "version": "0.0.1",
+  "private": true,
   "devDependencies": {
     "turbo": "^1.6.3"
   },
