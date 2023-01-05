@@ -1,10 +1,10 @@
 {
-  "name": "app-5",
+  "name": "app-2",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "build:start": "cd dist && PORT=8085 npx serve",
+    "build:start": "npx serve -s dist -l 8082",
     "start": "webpack serve --open --mode development --live-reload --hot"
   },
   "license": "MIT",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
@@ -32,7 +33,6 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "file-loader": "^6.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "preact": "^10.5.14"
   }
 }

@@ -16,5 +16,11 @@
     "run:vue": "cd vue-app && yarn start",
     "run:host": "cd host && yarn start",
     "run:all": "sh scripts/run.sh"
-  }
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
 }

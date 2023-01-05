@@ -1,0 +1,27 @@
+warning ..\..\package.json: No license field
+$ ng build
+- Generating browser application bundles (phase: setup)...
+    TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+polyfills.1d595d1bbab7b4b5.js | polyfills     |  40.23 kB |                13.19 kB
+remoteEntry.js                | app_6         |   7.41 kB |                 2.81 kB
+main.42321276ea0463b2.js      | main          |   7.00 kB |                 2.62 kB
+styles.dfba549b30d85faf.css   | styles        |   5.60 kB |                 1.28 kB
+
+| Initial Total |  60.23 kB |                19.90 kB
+
+Lazy Chunk Files              | Names         |  Raw Size | Estimated Transfer Size
+845.489887576fe31323.js       | -             | 195.79 kB |                55.20 kB
+181.389aed0ca589cf23.js       | -             |  62.30 kB |                15.69 kB
+895.36a02e1c253180ac.js       | -             |  62.29 kB |                15.69 kB
+605.b9e00bbc87af80d9.js       | -             |  46.99 kB |                14.58 kB
+85.857a89930de0fc62.js        | bootstrap     |  13.91 kB |                 4.15 kB
+
+Build at: 2023-01-05T09:51:16.201Z - Hash: 6f484a0d975f52a4 - Time: 15345ms

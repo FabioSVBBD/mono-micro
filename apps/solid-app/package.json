@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "build:start": "cd dist && PORT=8081 npx serve",
+    "build:start": "npx serve -s dist -l 8081",
     "start": "webpack serve --open --mode development --live-reload --hot"
   },
   "license": "MIT",
