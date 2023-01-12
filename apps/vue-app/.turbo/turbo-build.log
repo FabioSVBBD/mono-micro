@@ -2,14 +2,14 @@
 > app-4@1.0.0 build C:\Users\sousf001\Documents\mono-micro\apps\vue-app
 > webpack --mode production
 
+assets by status 7.75 KiB [1m[32m[cached][39m[22m 1 asset
 assets by path [1m[32m*.js[39m[22m 3.98 MiB
-  asset [1m[33m969.js[39m[22m [1m[33m3.88 MiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m
-  asset [1m[32m390.js[39m[22m 84.7 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
-  asset [1m[32mremoteEntry.js[39m[22m 4.78 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: app_4)
-  asset [1m[32mmain.js[39m[22m 4.45 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main)
-  asset [1m[32m158.js[39m[22m 997 bytes [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m
-asset [1m[32mbb18f05dacbe364a8c41fecebebb4ca6.png[39m[22m 7.75 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: src/assets/vue.png]
-asset [1m[32mindex.html[39m[22m 334 bytes [1m[32m[emitted][39m[22m
+  asset [1m[33m969.js[39m[22m [1m[33m3.88 MiB[39m[22m [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m
+  asset [1m[32m390.js[39m[22m 84.7 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
+  asset [1m[32mremoteEntry.js[39m[22m 4.78 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: app_4)
+  asset [1m[32mmain.js[39m[22m 4.45 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main)
+  asset [1m[32m158.js[39m[22m 997 bytes [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m
+asset [1m[32mindex.html[39m[22m 334 bytes [1m[33m[compared for emit][39m[22m
 runtime modules 33.1 KiB 24 modules
 orphan modules 436 KiB [1m[33m[orphan][39m[22m 16 modules
 built modules 4.32 MiB (javascript) 42 bytes (share-init) 42 bytes (consume-shared) [1m[33m[built][39m[22m
@@ -31,4 +31,4 @@ This can impact web performance.
 Assets: 
   969.js (3.88 MiB)[39m[22m
 
-webpack 5.75.0 compiled with [1m[33m1 warning[39m[22m in 9810 ms
+webpack 5.75.0 compiled with [1m[33m1 warning[39m[22m in 11085 ms
