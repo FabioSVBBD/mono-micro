@@ -6,6 +6,9 @@
     },
     "serve": {
       "cache": false
+    },
+    "start": {
+      "cache": false
     }
   }
 }
